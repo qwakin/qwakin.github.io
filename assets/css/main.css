@@ -1,0 +1,231 @@
+/* Non-Bootstrap Styles and Overrides */
+
+/* GLOBAL */
+a,
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+	text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #f4511e; 
+  font-family: Montserrat, helvetica, sans-serif !important;
+}
+body {
+  color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h3, .h4, .h5, .h6 {
+  color: #ffffff;
+}
+
+@media (min-width: 320px) {
+
+	iframe {
+		max-width: 300px;
+	}
+}
+@media (min-width: 480px) {
+
+	iframe {
+		max-width: 455px;
+	}
+}
+@media (min-width: 768px) {
+	iframe {
+		max-width: 768px;
+	}
+}
+
+
+/* IDs */
+
+#content {
+	margin-top: 10px;
+}
+
+#content h2 {
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+
+#profile-photo {}
+
+/* CLASSED */
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #ffffff;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner {
+  padding: 30px;
+}
+
+.cover-heading {
+	padding:0;
+	margin:0;
+	margin-bottom: 5px;
+	color: rgba(ff, ff, ff, .8);
+}
+.masthead {
+ color:#ffffff;
+ background-color: rgba(254,253,248,.2);
+}
+.masthead-brand {
+  margin: 0 0 4px 0;
+}
+
+h1.masthead-brand {
+}
+.masthead-nav {
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 13.5px;
+  font-weight: normal;
+  color:#fff; /* IE8 proofing */
+  color: rgb(ff, fff ff, .8);
+  border-bottom: 2px solid transparent;
+  //padding: 10px 15px 3px 10px;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #ffffff;
+  border-bottom-color: rgba(ff, ff, ff, .8);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #ffffff;
+  border-bottom-color: rgba(57, 57, 57, .8);
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.header {
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+.content__special {
+	position:static;
+	height:100%;
+}
+
+.writing-content {
+	margin-top: 16px;
+}
+
+
+
+@media (min-width: 480px) {
+
+	.masthead {
+		position: absolute;
+		top:0;
+	}
+	.masthead-nav > li > a {
+		padding: 10px 2px 3px 2px;
+		font-size: 14px;
+	}
+	.profile {
+		float: right;
+		margin: 20px 10px 20px 30px;
+	}
+	/* Start the vertical centering */
+	.site-wrapper-inner {
+		vertical-align: middle;
+	}
+	.mastfoot {
+		text-align: right;
+		padding-right:20px;
+	}
+	/* Handle the widths */
+	.masthead,
+	.mastfoot,
+	.cover-container {
+		width: 100%; /* Must be percentage or pixels for horizontal alignment */
+	}
+}
+
+@media (min-width: 768px) {
+	.masthead-brand {
+		float: left;
+		width:86px;
+	}
+	.masthead-nav {
+		float: right;
+	}
+	.masthead-nav > li > a {
+		padding: 10px 10px 3px 10px;
+		font-size: 16px;
+	}
+	.cover {
+		padding: 0 30px;
+	}
+	.cover .btn-lg {
+		padding: 10px 20px;
+		font-weight: bold;
+	}
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+
+.persona-item { 
+    margin-bottom: 25px;
+}
