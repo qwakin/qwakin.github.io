@@ -4,26 +4,26 @@
 a,
 a:link,
 a:visited {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 a:focus,
 a:hover {
 	text-decoration: none;
-  border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #000000;
 }
 
 html,
 body {
   height: 100%;
-  background-color: #f4511e; 
-  font-family: Montserrat, helvetica, sans-serif !important;
+  background-color: #fafafa; 
+  font-family: 'Happy Monkey', cursive  !important;
 }
 body {
-  color: #ffffff;
+  color: #000000;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h3, .h4, .h5, .h6 {
-  color: #ffffff;
+  color: #000000;
 }
 
 @media (min-width: 320px) {
@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h3, .h4, .h5, .h6 {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #ffffff;
+  color: #000000;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #fafafa;
+  border: 1px solid #000;
 }
 
 .site-wrapper {
@@ -93,11 +93,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h3, .h4, .h5, .h6 {
 	padding:0;
 	margin:0;
 	margin-bottom: 5px;
-	color: rgba(ff, ff, ff, .8);
+	color: rgba(00, 00, 00, .8);
 }
 .masthead {
- color:#ffffff;
- background-color: rgba(254,253,248,.2);
+ color:#000000;
+ background-color: rgba(fa, fa, fa, .2);
 }
 .masthead-brand {
   margin: 0 0 4px 0;
@@ -118,36 +118,22 @@ h1.masthead-brand {
   padding-left: 0;
   font-size: 13.5px;
   font-weight: normal;
-  color:#fff; /* IE8 proofing */
-  color: rgb(ff, fff ff, .8);
+  color:#000; /* IE8 proofing */
+  color: rgb(00, 00 00, .8);
   border-bottom: 2px solid transparent;
   //padding: 10px 15px 3px 10px;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #ffffff;
-  border-bottom-color: rgba(ff, ff, ff, .8);
+  border-bottom-color: #fafafa;
+  border-bottom-color: rgba(fa, fa, fa, .8);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #ffffff;
-  border-bottom-color: #ffffff;
-}
-
-.nav-pills > li > a:hover,
-.nav-pills > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #ffffff;
-  border-bottom-color: rgba(57, 57, 57, .8);
-}
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  background-color: transparent;
-  color: #ffffff;
-  border-bottom-color: #ffffff;
+  color: #000000;
+  border-bottom-color: #000000;
 }
 
 .header {
@@ -229,3 +215,4 @@ h1.masthead-brand {
 .persona-item { 
     margin-bottom: 25px;
 }
+
