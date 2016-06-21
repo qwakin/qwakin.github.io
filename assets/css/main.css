@@ -93,11 +93,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h3, .h4, .h5, .h6 {
 	padding:0;
 	margin:0;
 	margin-bottom: 5px;
-	color: rgba(00, 00, 00, .8);
 }
 .masthead {
  color:#000000;
- background-color: rgba(fa, fa, fa, .2);
 }
 .masthead-brand {
   margin: 0 0 4px 0;
@@ -119,7 +117,7 @@ h1.masthead-brand {
   font-size: 13.5px;
   font-weight: normal;
   color:#000; /* IE8 proofing */
-  color: rgb(00, 00 00, .8);
+  color: rgb(0, 0, 0, .8);
   border-bottom: 2px solid transparent;
   //padding: 10px 15px 3px 10px;
 }
@@ -127,7 +125,6 @@ h1.masthead-brand {
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #fafafa;
-  border-bottom-color: rgba(fa, fa, fa, .8);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
