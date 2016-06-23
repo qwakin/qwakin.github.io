@@ -124,7 +124,7 @@ h1.masthead-brand {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #fafafa;
+  border-bottom-color: #000000;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
